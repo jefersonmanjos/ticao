@@ -13,7 +13,7 @@ namespace SmartColeira.Controllers
         // GET api/values
         [HttpGet]
         public IEnumerable<string> Get()
-        {
+        { 
             return values;
         }
 
